@@ -11,7 +11,7 @@ end
 
 def self.count
   @@album_count
-
+end
 def name_of_album
 @name
 end
@@ -20,7 +20,7 @@ def date_of_album
   @date
 end
 end
-end
+
 shawn_mendes = Album.new("SHAWN MENDES","2018")
 taylor_swift= Album.new("Reputation","2017")
 drake = Album.new("Scoprion","2018")             # these are all local variables
