@@ -7,9 +7,10 @@ def initialize(name,date) #arguments
 @@album_count = @@album_count+1 #global variable
 end
 
-def self.count 
+
+
+def self.count
   @@album_count
-end 
 
 def name_of_album
 @name
