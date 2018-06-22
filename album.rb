@@ -27,4 +27,4 @@ drake = Album.new("Scoprion","2018")             # these are all local variables
 
 # puts "The album: #{shawn_mendes.name_of_album} was released in #{shawn_mendes.date_of_album}"
 
-puts "#{Album.count}" # tells amount of albums mentioned if delte this and line 2 7 10 and 11 then un hash line 27 to get album info
+puts Album.count # tells amount of albums mentioned if delte this and line 2 7 10 and 11 then un hash line 27 to get album info
